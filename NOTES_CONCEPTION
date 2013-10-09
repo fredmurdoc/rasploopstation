@@ -1,0 +1,44 @@
+
+
+#include "portaudiocpp/PortAudioCpp.hxx"
+
+
+
+/usr/include/portaudio.h
+definit
+portaudio::AutoSystem autoSys;
+portaudio::System &sys = portaudio::System::instance();
+
+
+Pour tout appel a l'API il faut initialiser le systeme de portaudio via
+PaError Pa_Initialize( void );
+
+Stopper le systeme avec
+PaError Pa_Terminate( void );
+
+!!!!ATTENTION
+Autant d'appels a l'initialize impose autant d'appels au terminate
+!!!!
+
+
+
+typedef struct PaDeviceInfo
+{
+    int structVersion;  /* this is struct version 2 */
+    const char *name;
+    PaHostApiIndex hostApi; /**< note this is a host API index, not a type id*/
+    
+    int maxInputChannels;
+    int maxOutputChannels;
+
+    /** Default latency values for interactive performance. */
+    PaTime defaultLowInputLatency;
+    PaTime defaultLowOutputLatency;
+    /** Default latency values for robust non-interactive applications (eg. playing sound files). */
+    PaTime defaultHighInputLatency;
+    PaTime defaultHighOutputLatency;
+
+    double defaultSampleRate;
+} PaDeviceInfo;
+
+

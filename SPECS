@@ -1,0 +1,31 @@
+
+RaspLoops
+
+transformer un Raspberry en loopstation
+
+sans interface graphique
+
+les actions seront preprogrammees par un fichier de configuration
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		ENTREE/SORTIES
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Dans un premier temps en l'absence d'interface externe
+
+le clavier fera office de manager des actions de la station
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		INTERFACES
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+

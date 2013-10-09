@@ -1,0 +1,13 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		OBJETS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Objet Station
+serveur qui ecoute les evenements
+
+Objet Mapper
+gere le mapping entre les evenements recus et les actions a executer
+
+
+
